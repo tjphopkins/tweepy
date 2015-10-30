@@ -21,9 +21,9 @@ class Parser(object):
 
     def parse_error(self, payload):
         """
-        Parse the error message from payload.
-        If unable to parse the message, throw an exception
-        and default error message will be used.
+        Parse the error message and api error code from payload.
+        Return them as an (error_msg, error_code) tuple. If unable to parse the
+        message, throw an exception and default error message will be used.
         """
         raise NotImplementedError
 
@@ -64,10 +64,12 @@ class JSONParser(Parser):
 
     def parse_error(self, payload):
         error = self.json_lib.loads(payload)
-        if error.has_key('error'):
-            return error['error']
-        else:
-            return error['errors']
+
+        error_message = error.get('error', error.get('errors'))
+
+        api_error_code = error.get('code', None)
+
+        return error_message, api_error_code
 
 
 class ModelParser(JSONParser):

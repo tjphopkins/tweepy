@@ -1,0 +1,92 @@
+{
+    "version": 1,
+    "interactions": [
+        {
+            "request": {
+                "headers": {
+                    "Host": [
+                        "api.twitter.com"
+                    ]
+                },
+                "method": "GET",
+                "uri": "https://api.twitter.com:443/1.1/direct_messaes.json",
+                "body": null
+            },
+            "response": {
+                "status": {
+                    "code": 404,
+                    "message": "Not Found"
+                },
+                "headers": {
+                    "date": [
+                        "Sun, 30 Nov 2014 20:41:16 UTC"
+                    ],
+                    "x-content-type-options": [
+                        "nosniff"
+                    ],
+                    "x-connection-hash": [
+                        "c256fe3c8de3883fd255c7a98e1cd50d"
+                    ],
+                    "x-rate-limit-limit": [
+                        "15"
+                    ],
+                    "server": [
+                        "tsa_b"
+                    ],
+                    "x-transaction": [
+                        "6cbcb97536134c20"
+                    ],
+                    "x-access-level": [
+                        "read-write-directmessages",
+                        "read-write-directmessages"
+                    ],
+                    "x-frame-options": [
+                        "SAMEORIGIN"
+                    ],
+                    "strict-transport-security": [
+                        "max-age=631138519"
+                    ],
+                    "cache-control": [
+                        "no-cache, no-store, must-revalidate, pre-check=0, post-check=0"
+                    ],
+                    "content-length": [
+                        "10590"
+                    ],
+                    "set-cookie": [
+                        "guest_id=v1%3A141738007643851362; Domain=.twitter.com; Path=/; Expires=Tue, 29-Nov-2016 20:41:16 UTC"
+                    ],
+                    "last-modified": [
+                        "Sun, 30 Nov 2014 20:41:16 GMT"
+                    ],
+                    "status": [
+                        "404 Not Found"
+                    ],
+                    "expires": [
+                        "Tue, 31 Mar 1981 05:00:00 GMT"
+                    ],
+                    "content-type": [
+                        "application/json;charset=utf-8"
+                    ],
+                    "x-rate-limit-remaining": [
+                        "14"
+                    ],
+                    "pragma": [
+                        "no-cache"
+                    ],
+                    "x-xss-protection": [
+                        "1; mode=block"
+                    ],
+                    "x-rate-limit-reset": [
+                        "1417380976"
+                    ]
+                },
+                "body": {
+                    "errors": {
+                        "message": "Sorry, that page does not exist",
+                        "code": 34
+                    }
+                }
+            }
+        }
+    ]
+}

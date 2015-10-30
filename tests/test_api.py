@@ -32,6 +32,18 @@ class TweepyErrorTests(unittest.TestCase):
 
 class TweepyAPITests(TweepyTestCase):
 
+    @tape.use_cassette('testfailure.json')
+    def testapierror(self):
+        from tweepy.error import TweepError
+
+        try:
+            self.api.direct_messages()
+        except TweepError as e:
+            self.assertEqual(e.message, 'Sorry, that page does not exist')
+            self.assertEqual(e.code, 34)
+        else:
+            self.fail("TweepError not raised")
+
     # TODO: Actually have some sort of better assertion
     @tape.use_cassette('testgetoembed.json')
     def testgetoembed(self):
