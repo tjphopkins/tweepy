@@ -1,0 +1,710 @@
+{
+    "version": 1,
+    "interactions": [
+        {
+            "request": {
+                "headers": {
+                    "Host": [
+                        "api.twitter.com"
+                    ]
+                },
+                "uri": "https://api.twitter.com:443/1.1/statuses/oembed.json?id=266367358078169089",
+                "method": "GET",
+                "body": null
+            },
+            "response": {
+                "headers": {
+                    "content-length": [
+                        "62"
+                    ],
+                    "x-connection-hash": [
+                        "f83a83ea8f9bb7ced027e879929ed0b0"
+                    ],
+                    "strict-transport-security": [
+                        "max-age=631138519"
+                    ],
+                    "server": [
+                        "tsa_b"
+                    ],
+                    "x-response-time": [
+                        "4"
+                    ],
+                    "set-cookie": [
+                        "guest_id=v1%3A144648251870991125; Domain=.twitter.com; Path=/; Expires=Wed, 01-Nov-2017 16:41:58 UTC"
+                    ],
+                    "date": [
+                        "Mon, 02 Nov 2015 16:41:58 GMT"
+                    ],
+                    "content-type": [
+                        "application/json; charset=utf-8"
+                    ]
+                },
+                "status": {
+                    "message": "Bad Request",
+                    "code": 400
+                },
+                "body": {
+                    "string": "{\"errors\":[{\"code\":215,\"message\":\"Bad Authentication data.\"}]}"
+                }
+            }
+        },
+        {
+            "request": {
+                "headers": {
+                    "Cookie": [
+                        "guest_id=v1%3A144648251870991125"
+                    ],
+                    "Host": [
+                        "api.twitter.com"
+                    ]
+                },
+                "uri": "https://api.twitter.com:443/1.1/statuses/oembed.json?id=266367358078169089",
+                "method": "GET",
+                "body": null
+            },
+            "response": {
+                "headers": {
+                    "content-length": [
+                        "62"
+                    ],
+                    "x-connection-hash": [
+                        "f83a83ea8f9bb7ced027e879929ed0b0"
+                    ],
+                    "strict-transport-security": [
+                        "max-age=631138519"
+                    ],
+                    "server": [
+                        "tsa_b"
+                    ],
+                    "x-response-time": [
+                        "4"
+                    ],
+                    "date": [
+                        "Mon, 02 Nov 2015 16:42:03 GMT"
+                    ],
+                    "content-type": [
+                        "application/json; charset=utf-8"
+                    ]
+                },
+                "status": {
+                    "message": "Bad Request",
+                    "code": 400
+                },
+                "body": {
+                    "string": "{\"errors\":[{\"code\":215,\"message\":\"Bad Authentication data.\"}]}"
+                }
+            }
+        },
+        {
+            "request": {
+                "headers": {
+                    "Cookie": [
+                        "guest_id=v1%3A144648251870991125"
+                    ],
+                    "Host": [
+                        "api.twitter.com"
+                    ]
+                },
+                "uri": "https://api.twitter.com:443/1.1/statuses/oembed.json?id=266367358078169089",
+                "method": "GET",
+                "body": null
+            },
+            "response": {
+                "headers": {
+                    "content-length": [
+                        "62"
+                    ],
+                    "x-connection-hash": [
+                        "f83a83ea8f9bb7ced027e879929ed0b0"
+                    ],
+                    "strict-transport-security": [
+                        "max-age=631138519"
+                    ],
+                    "server": [
+                        "tsa_b"
+                    ],
+                    "x-response-time": [
+                        "7"
+                    ],
+                    "date": [
+                        "Mon, 02 Nov 2015 16:42:09 GMT"
+                    ],
+                    "content-type": [
+                        "application/json; charset=utf-8"
+                    ]
+                },
+                "status": {
+                    "message": "Bad Request",
+                    "code": 400
+                },
+                "body": {
+                    "string": "{\"errors\":[{\"code\":215,\"message\":\"Bad Authentication data.\"}]}"
+                }
+            }
+        },
+        {
+            "request": {
+                "headers": {
+                    "Host": [
+                        "api.twitter.com"
+                    ]
+                },
+                "uri": "https://api.twitter.com:443/1.1/statuses/oembed.json?id=266367358078169089",
+                "method": "GET",
+                "body": null
+            },
+            "response": {
+                "headers": {
+                    "content-length": [
+                        "62"
+                    ],
+                    "x-connection-hash": [
+                        "6fe56cb393ba1b2016de18896c3c097c"
+                    ],
+                    "strict-transport-security": [
+                        "max-age=631138519"
+                    ],
+                    "server": [
+                        "tsa_b"
+                    ],
+                    "x-response-time": [
+                        "7"
+                    ],
+                    "set-cookie": [
+                        "guest_id=v1%3A144648256006533283; Domain=.twitter.com; Path=/; Expires=Wed, 01-Nov-2017 16:42:40 UTC"
+                    ],
+                    "date": [
+                        "Mon, 02 Nov 2015 16:42:40 GMT"
+                    ],
+                    "content-type": [
+                        "application/json; charset=utf-8"
+                    ]
+                },
+                "status": {
+                    "message": "Bad Request",
+                    "code": 400
+                },
+                "body": {
+                    "string": "{\"errors\":[{\"code\":215,\"message\":\"Bad Authentication data.\"}]}"
+                }
+            }
+        },
+        {
+            "request": {
+                "headers": {
+                    "Cookie": [
+                        "guest_id=v1%3A144648256006533283"
+                    ],
+                    "Host": [
+                        "api.twitter.com"
+                    ]
+                },
+                "uri": "https://api.twitter.com:443/1.1/statuses/oembed.json?id=266367358078169089",
+                "method": "GET",
+                "body": null
+            },
+            "response": {
+                "headers": {
+                    "content-length": [
+                        "62"
+                    ],
+                    "x-connection-hash": [
+                        "6fe56cb393ba1b2016de18896c3c097c"
+                    ],
+                    "strict-transport-security": [
+                        "max-age=631138519"
+                    ],
+                    "server": [
+                        "tsa_b"
+                    ],
+                    "x-response-time": [
+                        "4"
+                    ],
+                    "date": [
+                        "Mon, 02 Nov 2015 16:42:45 GMT"
+                    ],
+                    "content-type": [
+                        "application/json; charset=utf-8"
+                    ]
+                },
+                "status": {
+                    "message": "Bad Request",
+                    "code": 400
+                },
+                "body": {
+                    "string": "{\"errors\":[{\"code\":215,\"message\":\"Bad Authentication data.\"}]}"
+                }
+            }
+        },
+        {
+            "request": {
+                "headers": {
+                    "Cookie": [
+                        "guest_id=v1%3A144648256006533283"
+                    ],
+                    "Host": [
+                        "api.twitter.com"
+                    ]
+                },
+                "uri": "https://api.twitter.com:443/1.1/statuses/oembed.json?id=266367358078169089",
+                "method": "GET",
+                "body": null
+            },
+            "response": {
+                "headers": {
+                    "content-length": [
+                        "62"
+                    ],
+                    "x-connection-hash": [
+                        "6fe56cb393ba1b2016de18896c3c097c"
+                    ],
+                    "strict-transport-security": [
+                        "max-age=631138519"
+                    ],
+                    "server": [
+                        "tsa_b"
+                    ],
+                    "x-response-time": [
+                        "3"
+                    ],
+                    "date": [
+                        "Mon, 02 Nov 2015 16:42:50 GMT"
+                    ],
+                    "content-type": [
+                        "application/json; charset=utf-8"
+                    ]
+                },
+                "status": {
+                    "message": "Bad Request",
+                    "code": 400
+                },
+                "body": {
+                    "string": "{\"errors\":[{\"code\":215,\"message\":\"Bad Authentication data.\"}]}"
+                }
+            }
+        },
+        {
+            "request": {
+                "headers": {
+                    "Host": [
+                        "api.twitter.com"
+                    ]
+                },
+                "uri": "https://api.twitter.com:443/1.1/statuses/oembed.json?id=266367358078169089",
+                "method": "GET",
+                "body": null
+            },
+            "response": {
+                "headers": {
+                    "content-length": [
+                        "62"
+                    ],
+                    "x-connection-hash": [
+                        "067ff2c1591b0adefb7afd62b4b1a51f"
+                    ],
+                    "strict-transport-security": [
+                        "max-age=631138519"
+                    ],
+                    "server": [
+                        "tsa_b"
+                    ],
+                    "x-response-time": [
+                        "5"
+                    ],
+                    "set-cookie": [
+                        "guest_id=v1%3A144648262017012126; Domain=.twitter.com; Path=/; Expires=Wed, 01-Nov-2017 16:43:40 UTC"
+                    ],
+                    "date": [
+                        "Mon, 02 Nov 2015 16:43:40 GMT"
+                    ],
+                    "content-type": [
+                        "application/json; charset=utf-8"
+                    ]
+                },
+                "status": {
+                    "message": "Bad Request",
+                    "code": 400
+                },
+                "body": {
+                    "string": "{\"errors\":[{\"code\":215,\"message\":\"Bad Authentication data.\"}]}"
+                }
+            }
+        },
+        {
+            "request": {
+                "headers": {
+                    "Cookie": [
+                        "guest_id=v1%3A144648262017012126"
+                    ],
+                    "Host": [
+                        "api.twitter.com"
+                    ]
+                },
+                "uri": "https://api.twitter.com:443/1.1/statuses/oembed.json?id=266367358078169089",
+                "method": "GET",
+                "body": null
+            },
+            "response": {
+                "headers": {
+                    "content-length": [
+                        "62"
+                    ],
+                    "x-connection-hash": [
+                        "067ff2c1591b0adefb7afd62b4b1a51f"
+                    ],
+                    "strict-transport-security": [
+                        "max-age=631138519"
+                    ],
+                    "server": [
+                        "tsa_b"
+                    ],
+                    "x-response-time": [
+                        "5"
+                    ],
+                    "date": [
+                        "Mon, 02 Nov 2015 16:43:45 GMT"
+                    ],
+                    "content-type": [
+                        "application/json; charset=utf-8"
+                    ]
+                },
+                "status": {
+                    "message": "Bad Request",
+                    "code": 400
+                },
+                "body": {
+                    "string": "{\"errors\":[{\"code\":215,\"message\":\"Bad Authentication data.\"}]}"
+                }
+            }
+        },
+        {
+            "request": {
+                "headers": {
+                    "Cookie": [
+                        "guest_id=v1%3A144648262017012126"
+                    ],
+                    "Host": [
+                        "api.twitter.com"
+                    ]
+                },
+                "uri": "https://api.twitter.com:443/1.1/statuses/oembed.json?id=266367358078169089",
+                "method": "GET",
+                "body": null
+            },
+            "response": {
+                "headers": {
+                    "content-length": [
+                        "62"
+                    ],
+                    "x-connection-hash": [
+                        "067ff2c1591b0adefb7afd62b4b1a51f"
+                    ],
+                    "strict-transport-security": [
+                        "max-age=631138519"
+                    ],
+                    "server": [
+                        "tsa_b"
+                    ],
+                    "x-response-time": [
+                        "4"
+                    ],
+                    "date": [
+                        "Mon, 02 Nov 2015 16:43:50 GMT"
+                    ],
+                    "content-type": [
+                        "application/json; charset=utf-8"
+                    ]
+                },
+                "status": {
+                    "message": "Bad Request",
+                    "code": 400
+                },
+                "body": {
+                    "string": "{\"errors\":[{\"code\":215,\"message\":\"Bad Authentication data.\"}]}"
+                }
+            }
+        },
+        {
+            "request": {
+                "headers": {
+                    "Host": [
+                        "api.twitter.com"
+                    ]
+                },
+                "uri": "https://api.twitter.com:443/1.1/statuses/oembed.json?id=266367358078169089",
+                "method": "GET",
+                "body": null
+            },
+            "response": {
+                "headers": {
+                    "content-length": [
+                        "62"
+                    ],
+                    "x-connection-hash": [
+                        "37066e8cbca8644f0cd93a4a9472ac46"
+                    ],
+                    "strict-transport-security": [
+                        "max-age=631138519"
+                    ],
+                    "server": [
+                        "tsa_b"
+                    ],
+                    "x-response-time": [
+                        "4"
+                    ],
+                    "set-cookie": [
+                        "guest_id=v1%3A144648275587660654; Domain=.twitter.com; Path=/; Expires=Wed, 01-Nov-2017 16:45:55 UTC"
+                    ],
+                    "date": [
+                        "Mon, 02 Nov 2015 16:45:55 GMT"
+                    ],
+                    "content-type": [
+                        "application/json; charset=utf-8"
+                    ]
+                },
+                "status": {
+                    "message": "Bad Request",
+                    "code": 400
+                },
+                "body": {
+                    "string": "{\"errors\":[{\"code\":215,\"message\":\"Bad Authentication data.\"}]}"
+                }
+            }
+        },
+        {
+            "request": {
+                "headers": {
+                    "Cookie": [
+                        "guest_id=v1%3A144648275587660654"
+                    ],
+                    "Host": [
+                        "api.twitter.com"
+                    ]
+                },
+                "uri": "https://api.twitter.com:443/1.1/statuses/oembed.json?id=266367358078169089",
+                "method": "GET",
+                "body": null
+            },
+            "response": {
+                "headers": {
+                    "content-length": [
+                        "62"
+                    ],
+                    "x-connection-hash": [
+                        "37066e8cbca8644f0cd93a4a9472ac46"
+                    ],
+                    "strict-transport-security": [
+                        "max-age=631138519"
+                    ],
+                    "server": [
+                        "tsa_b"
+                    ],
+                    "x-response-time": [
+                        "9"
+                    ],
+                    "date": [
+                        "Mon, 02 Nov 2015 16:46:01 GMT"
+                    ],
+                    "content-type": [
+                        "application/json; charset=utf-8"
+                    ]
+                },
+                "status": {
+                    "message": "Bad Request",
+                    "code": 400
+                },
+                "body": {
+                    "string": "{\"errors\":[{\"code\":215,\"message\":\"Bad Authentication data.\"}]}"
+                }
+            }
+        },
+        {
+            "request": {
+                "headers": {
+                    "Cookie": [
+                        "guest_id=v1%3A144648275587660654"
+                    ],
+                    "Host": [
+                        "api.twitter.com"
+                    ]
+                },
+                "uri": "https://api.twitter.com:443/1.1/statuses/oembed.json?id=266367358078169089",
+                "method": "GET",
+                "body": null
+            },
+            "response": {
+                "headers": {
+                    "content-length": [
+                        "62"
+                    ],
+                    "x-connection-hash": [
+                        "37066e8cbca8644f0cd93a4a9472ac46"
+                    ],
+                    "strict-transport-security": [
+                        "max-age=631138519"
+                    ],
+                    "server": [
+                        "tsa_b"
+                    ],
+                    "x-response-time": [
+                        "4"
+                    ],
+                    "date": [
+                        "Mon, 02 Nov 2015 16:46:06 GMT"
+                    ],
+                    "content-type": [
+                        "application/json; charset=utf-8"
+                    ]
+                },
+                "status": {
+                    "message": "Bad Request",
+                    "code": 400
+                },
+                "body": {
+                    "string": "{\"errors\":[{\"code\":215,\"message\":\"Bad Authentication data.\"}]}"
+                }
+            }
+        },
+        {
+            "request": {
+                "headers": {
+                    "Host": [
+                        "api.twitter.com"
+                    ]
+                },
+                "uri": "https://api.twitter.com:443/1.1/statuses/oembed.json?id=266367358078169089",
+                "method": "GET",
+                "body": null
+            },
+            "response": {
+                "headers": {
+                    "content-length": [
+                        "62"
+                    ],
+                    "x-connection-hash": [
+                        "5d0a6ca3ac00304f89a7671fefe19097"
+                    ],
+                    "set-cookie": [
+                        "guest_id=v1%3A144648277696275637; Domain=.twitter.com; Path=/; Expires=Wed, 01-Nov-2017 16:46:16 UTC"
+                    ],
+                    "server": [
+                        "tsa_b"
+                    ],
+                    "x-response-time": [
+                        "4"
+                    ],
+                    "strict-transport-security": [
+                        "max-age=631138519"
+                    ],
+                    "date": [
+                        "Mon, 02 Nov 2015 16:46:16 GMT"
+                    ],
+                    "content-type": [
+                        "application/json; charset=utf-8"
+                    ]
+                },
+                "status": {
+                    "message": "Bad Request",
+                    "code": 400
+                },
+                "body": {
+                    "string": "{\"errors\":[{\"code\":215,\"message\":\"Bad Authentication data.\"}]}"
+                }
+            }
+        },
+        {
+            "request": {
+                "headers": {
+                    "Cookie": [
+                        "guest_id=v1%3A144648277696275637"
+                    ],
+                    "Host": [
+                        "api.twitter.com"
+                    ]
+                },
+                "uri": "https://api.twitter.com:443/1.1/statuses/oembed.json?id=266367358078169089",
+                "method": "GET",
+                "body": null
+            },
+            "response": {
+                "headers": {
+                    "content-length": [
+                        "62"
+                    ],
+                    "x-connection-hash": [
+                        "5d0a6ca3ac00304f89a7671fefe19097"
+                    ],
+                    "strict-transport-security": [
+                        "max-age=631138519"
+                    ],
+                    "server": [
+                        "tsa_b"
+                    ],
+                    "x-response-time": [
+                        "4"
+                    ],
+                    "date": [
+                        "Mon, 02 Nov 2015 16:46:22 GMT"
+                    ],
+                    "content-type": [
+                        "application/json; charset=utf-8"
+                    ]
+                },
+                "status": {
+                    "message": "Bad Request",
+                    "code": 400
+                },
+                "body": {
+                    "string": "{\"errors\":[{\"code\":215,\"message\":\"Bad Authentication data.\"}]}"
+                }
+            }
+        },
+        {
+            "request": {
+                "headers": {
+                    "Cookie": [
+                        "guest_id=v1%3A144648277696275637"
+                    ],
+                    "Host": [
+                        "api.twitter.com"
+                    ]
+                },
+                "uri": "https://api.twitter.com:443/1.1/statuses/oembed.json?id=266367358078169089",
+                "method": "GET",
+                "body": null
+            },
+            "response": {
+                "headers": {
+                    "content-length": [
+                        "62"
+                    ],
+                    "x-connection-hash": [
+                        "5d0a6ca3ac00304f89a7671fefe19097"
+                    ],
+                    "strict-transport-security": [
+                        "max-age=631138519"
+                    ],
+                    "server": [
+                        "tsa_b"
+                    ],
+                    "x-response-time": [
+                        "4"
+                    ],
+                    "date": [
+                        "Mon, 02 Nov 2015 16:46:27 GMT"
+                    ],
+                    "content-type": [
+                        "application/json; charset=utf-8"
+                    ]
+                },
+                "status": {
+                    "message": "Bad Request",
+                    "code": 400
+                },
+                "body": {
+                    "string": "{\"errors\":[{\"code\":215,\"message\":\"Bad Authentication data.\"}]}"
+                }
+            }
+        }
+    ]
+}

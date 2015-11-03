@@ -30,7 +30,7 @@ class TweepyErrorTests(unittest.TestCase):
         self.assertEqual(e.response, e2.response)
 
 
-class TweepyAPITests(TweepyTestCase):
+class TestAPIError(TweepyTestCase):
 
     @tape.use_cassette('testfailure.json')
     def testapierror(self):
@@ -39,10 +39,13 @@ class TweepyAPITests(TweepyTestCase):
         try:
             self.api.direct_messages()
         except TweepError as e:
-            self.assertEqual(e.message, 'Sorry, that page does not exist')
+            self.assertEqual(e.reason, 'Sorry, that page does not exist')
             self.assertEqual(e.code, 34)
         else:
             self.fail("TweepError not raised")
+
+
+class TweepyAPITests(TweepyTestCase):
 
     # TODO: Actually have some sort of better assertion
     @tape.use_cassette('testgetoembed.json')

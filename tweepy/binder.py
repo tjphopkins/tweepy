@@ -226,7 +226,7 @@ def bind_api(**config):
                     raise RateLimitError(error_msg, resp)
                 else:
                     raise TweepError(error_msg, resp,
-                                     api_error_code=api_error_code)
+                                     api_code=api_error_code)
 
             # Parse the response payload
             result = self.parser.parse(self, resp.text)
